@@ -57,3 +57,16 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Project Files and Directories
+.gradle/
+.settings/
+art/
+bin/
+build/
+
+.classpath
+.project
+package.bat
+todo.txt
+_*.*

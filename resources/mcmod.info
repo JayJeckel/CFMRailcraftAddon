@@ -1,0 +1,25 @@
+{
+	"modListVersion": 2,
+	"modList":
+	[
+		{
+			"modid": "cfmrailcraftaddon",
+			"name": "CFMRailcraftAddon",
+			"description": "CFMRailcraftAddon registers appropriate Railcraft items with Mr Crayfish's Furniture Mod.",
+			"version": "${version}",
+			"mcversion": "${mcversion}",
+			"forgeversion": "${forgeversion}",
+			"url": "http://minecraft.jeckelland.site88.net/mods/${name}/",
+			"updateUrl": "",
+			"authorList": ["JayJeckel"],
+			"credits": "",
+			"logoFile": "banner.png",
+			"screenshots": [],
+			"parent": "",
+			"requiredMods": [ "Forge", "cfm", "Railcraft" ],
+			"dependencies": [ "cfm", "Railcraft" ],
+			"dependants": [],
+			"useDependencyInformation": true
+		}
+	]
+}
