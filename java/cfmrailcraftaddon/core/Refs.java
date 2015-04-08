@@ -19,6 +19,8 @@ public class Refs
 	public static final String ModId = "cfmrailcraftaddon";
 	public static final String ModName = "CFMRailcraftAddon";
 
+	public static final String ConfigFactoryTypeName = Refs.ModId + ".common.configs.ConfigHandler$Factory";
+
 	public static Logger getLogger() { return _logger; }
 	private static Logger _logger;
 

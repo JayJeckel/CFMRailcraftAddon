@@ -14,7 +14,7 @@ import cpw.mods.fml.common.event.FMLServerStartingEvent;
 modid = Refs.ModId,
 useMetadata = true,
 canBeDeactivated = false,
-guiFactory = Refs.ModId + ".common.configs.ConfigHandler$Factory"
+guiFactory = Refs.ConfigFactoryTypeName
 )
 public class CFMRailcraftAddon
 {
