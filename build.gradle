@@ -28,7 +28,7 @@ mod.setProperty("forgeversion", "10.13.2.1291")
 
 mod.setProperty("id", "cfmrailcraftaddon")
 mod.setProperty("name", "CFMRailcraftAddon")
-mod.setProperty("version", "1.0.1-beta")
+mod.setProperty("version", "1.0.2-beta")
 
 dependencies
 {
