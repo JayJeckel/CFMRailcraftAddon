@@ -51,8 +51,8 @@ public class Refs
 
 	public static void initialize(FMLInitializationEvent event)
 	{
-		if (CFMRailcraftAddon.CfmMod != null) { getLogger().info("Addon Disabled: Mr Crayfish Furniture Mod is not found."); }
-		else if (CFMRailcraftAddon.RailcraftMod != null) { getLogger().info("Addon Disabled: Railcraft is not found."); }
+		if (CFMRailcraftAddon.CfmMod == null) { getLogger().info("Addon Disabled: Mr Crayfish Furniture Mod is not found."); }
+		else if (CFMRailcraftAddon.RailcraftMod == null) { getLogger().info("Addon Disabled: Railcraft is not found."); }
 		else { CFMRecipeRegistry.send(); }
 	}
 
